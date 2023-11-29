@@ -1,0 +1,6 @@
+Number of loops: 5
+Number of nested loops: 1
+Number of arithmetic operators: {'+': 9, '-': 13, '*': 2, '%': 3}
+Number of logical operators: {'&': 4, '&&': 1}
+Number of input ports: 8
+Number of output ports: 3
