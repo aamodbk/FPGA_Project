@@ -1,0 +1,9 @@
+set_directive_resource -core RAM_1P_BRAM bfs nodes
+set_directive_unroll -factor 2 bfs/init_horizions
+set_directive_resource -core RAM_1P_BRAM bfs edges
+set_directive_unroll -factor 2 bfs/init_levels
+set_directive_resource -core RAM_1P_BRAM bfs level
+set_directive_unroll -factor 2 bfs/loop_queue
+set_directive_resource -core RAM_1P_BRAM bfs level_counts
+set_directive_unroll -factor 2 bfs/loop_neighbors
+
